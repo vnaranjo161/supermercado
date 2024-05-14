@@ -4,7 +4,7 @@ import authController from '../controllers/user/authController';
 import getProducts from '../controllers/user/getProductsController';
 import validateToken from '../middleware/validateToken';
 import makeOrder from '../controllers/user/makeOrderController';
-import getOrdersUser from '../controllers/user/getOrdersUsetController';
+import getOrdersUser from '../controllers/user/getOrdersUserController';
 import updateStatus from '../controllers/user/updateStatusController';
 import statusCheck from '../controllers/user/statusCheckController';
 const router = express.Router();
